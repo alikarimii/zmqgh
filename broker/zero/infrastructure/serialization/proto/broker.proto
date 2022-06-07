@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option go_package="github.com/alikarimii/zmqgh/pkg/shared";
+package zerobroker;
+message ZeroMessage {
+    string name =1;
+    uint32 age=2;
+}
